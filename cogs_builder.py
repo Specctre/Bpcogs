@@ -292,7 +292,7 @@ def Voorbeeld():
             org2 = orgslijst[y]
             if x > y:
                 SchrijfNaarTwog(org1, org2)
-        print org1
+        print (org1)
         prots, twogs, cogs = OpenNeededFiles(org1)
         if x >= 2:
             SearchForCog(cogs, twogs, prots)
